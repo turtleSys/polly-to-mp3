@@ -9,11 +9,11 @@ setuptools.setup(
     name="mp3_polly_lambda",
     version="0.0.1",
 
-    description="An empty CDK Python app",
+    description="S3 event triggers creation of polly mp3 with object data",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
-    author="author",
+    author="Isaac Hinch",
 
     package_dir={"": "mp3_polly_lambda"},
     packages=setuptools.find_packages(where="mp3_polly_lambda"),
